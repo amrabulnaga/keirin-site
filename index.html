@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keirin Framework · The AI-Augmented Agile Delivery Framework</title>
+<meta name="description" content="Keirin embeds governed AI into the delivery cadence, accelerating performance while humans remain in control. Public Review Edition 0.9 by Amr Abulnaga. DOI 10.5281/zenodo.21758038.">
+<meta name="author" content="Amr Abulnaga">
+<link rel="canonical" href="https://keirinframework.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#141A26">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keirin Framework">
+<meta property="og:title" content="Keirin Framework · The AI-Augmented Agile Delivery Framework">
+<meta property="og:description" content="The machine sets the pace. Your team wins the race. Governed AI inside the cadence your teams already run. Public Review Edition 0.9.">
+<meta property="og:url" content="https://keirinframework.com/">
+<meta property="og:image" content="https://keirinframework.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Keirin Framework">
+<meta name="twitter:description" content="Governed AI inside the cadence your teams already run. Public Review Edition 0.9.">
+<meta name="twitter:image" content="https://keirinframework.com/og.png">
+<meta name="citation_title" content="Keirin Framework: The AI-Augmented Agile Delivery Framework">
+<meta name="citation_author" content="Abulnaga, Amr">
+<meta name="citation_publication_date" content="2026/08/02">
+<meta name="citation_doi" content="10.5281/zenodo.21758038">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://doi.org/10.5281/zenodo.21758038",
+  "name": "Keirin Framework: The AI-Augmented Agile Delivery Framework",
+  "alternateName": "Keirin",
+  "version": "0.9 — Public Review Edition",
+  "datePublished": "2026-08-02",
+  "author": {"@type": "Person", "name": "Amr Abulnaga"},
+  "copyrightHolder": {"@type": "Person", "name": "Amr Abulnaga"},
+  "copyrightYear": 2026,
+  "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.21758038", "url": "https://doi.org/10.5281/zenodo.21758038"},
+  "url": "https://keirinframework.com/",
+  "sameAs": ["https://zenodo.org/records/21758038", "https://doi.org/10.5281/zenodo.21758038"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": {"@type": "Organization", "name": "Zenodo"},
+  "inLanguage": "en",
+  "keywords": ["AI-augmented agile", "AI governance", "agile delivery", "Scrum", "SAFe", "business agility", "KeirinFramework"],
+  "description": "Keirin embeds governed AI into the delivery cadence, accelerating performance while humans remain in control. It turns scattered, unmeasured AI use into a governed, context-aware and measurable delivery capability.",
+  "encoding": {"@type": "MediaObject", "encodingFormat": "application/pdf", "contentUrl": "https://zenodo.org/records/21758038/files/keirin-framework-0.9-public-review.pdf?download=1"}
+}
+</script>
+<style>
+:root{--ink:#141A26;--ink2:#1B2530;--az:#0E7FC0;--cy:#2BB3D8;--steel:#4A5568;--mist:#8A94A6;--light:#EEF1F6;--line:#D8DEE8;--paper:#FAFBFD;--sky:#AEC9DE}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,"Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--steel);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Inter Tight",Inter,"Segoe UI",system-ui,sans-serif;color:var(--ink);line-height:1.15;letter-spacing:-.01em}
+a{color:var(--az)}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:10}
+/* nav */
+header.nav{position:sticky;top:0;z-index:5;background:rgba(20,26,38,.94);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid #222D3D}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.brandmark{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brandmark .word{font-weight:800;letter-spacing:.32em;color:#fff;font-size:17px}
+.nav nav{display:flex;gap:22px}
+.nav nav a{color:#C9D3E0;text-decoration:none;font-size:14.5px}
+.nav nav a:hover{color:#fff}
+/* hero */
+.hero{background:var(--ink);color:#fff;position:relative;overflow:hidden;padding:88px 0 96px}
+.hero .track{position:absolute;right:-220px;top:-200px;width:760px;height:760px;opacity:.9;pointer-events:none}
+.hero .eyebrow{color:var(--cy)}
+.hero h1{color:#fff;font-size:clamp(42px,7vw,76px);font-weight:800;margin-top:14px}
+.hero .sub{font-size:clamp(19px,2.4vw,25px);color:var(--sky);margin-top:12px;font-weight:500}
+.rule{width:84px;height:5px;background:var(--az);border-radius:2px;margin:28px 0 24px}
+.tag{font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.22;font-family:"Inter Tight",Inter,system-ui,sans-serif}
+.tag span{color:var(--cy)}
+.hero p.lead{max-width:640px;margin-top:20px;font-size:18px;color:#C9D3E0}
+.hero p.lead b{color:#fff}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 20px;border-radius:6px;font-weight:600;text-decoration:none;font-size:15.5px}
+.btn.pri{background:var(--az);color:#fff}.btn.pri:hover{background:#0B6EA8}
+.btn.sec{border:1px solid #3A4A63;color:#E6ECF3}.btn.sec:hover{border-color:var(--cy)}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px;align-items:center}
+.doi{display:inline-flex;font-size:13px;border-radius:4px;overflow:hidden;text-decoration:none;font-family:ui-monospace,Menlo,Consolas,monospace}
+.doi span:first-child{background:#555;color:#fff;padding:4px 8px}.doi span:last-child{background:var(--az);color:#fff;padding:4px 8px}
+.edition{font-size:13px;color:var(--mist)}
+/* sections */
+section.s{padding:84px 0;border-bottom:1px solid var(--line)}
+.sec-h{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+.sec-h .n{color:var(--az);font-weight:600}
+.sec-h h2{font-size:clamp(26px,3.4vw,36px);font-weight:800}
+.sec-h p{color:var(--mist);margin-left:auto;font-size:15px}
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+.prose p{font-size:17px;margin-bottom:16px}.prose b{color:var(--ink)}
+.derny{border-left:3px solid var(--az);padding:4px 0 4px 20px;font-size:16.5px;background:#fff;border-radius:0 6px 6px 0;padding:18px 20px}
+.derny b{color:var(--ink)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:4px;padding:6px 12px;font-size:14px;color:var(--ink);font-weight:500}
+/* layers */
+.stack{display:flex;flex-direction:column;gap:8px}
+.L{display:grid;grid-template-columns:44px 250px 1fr;align-items:center;min-height:62px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 20px}
+.L .num{font-weight:800;font-size:28px;color:var(--cy);font-family:"Inter Tight",Inter,system-ui,sans-serif}
+.L .nm{font-weight:700;font-size:18px;color:var(--ink)}
+.L .ds{font-size:15px}
+.L.sig{border-color:var(--az);box-shadow:inset 4px 0 0 var(--az)}
+.L.ent{background:var(--light);border-style:dashed;border-color:#B8C4D6}
+.cfg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.cfg div{border-radius:6px;padding:14px 18px;font-size:15px}
+.cfg .core{background:var(--ink2);color:var(--sky)}.cfg .core b{color:#fff}
+.cfg .ent{background:#D8E6F2}.cfg .ent b{color:var(--ink)}
+.canvas{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:18px 20px;display:flex;gap:20px;align-items:flex-start}
+.canvas .mono{color:var(--az);font-weight:600;white-space:nowrap;padding-top:3px}
+.canvas b{color:var(--ink)}
+/* roles */
+.ai{background:var(--az);color:#fff;border-radius:6px;padding:18px 22px;display:flex;gap:20px;align-items:flex-start}
+.ai .t{font-weight:700;font-size:19px;min-width:150px;font-family:"Inter Tight",Inter,system-ui,sans-serif}
+.ai .t small{display:block;font-weight:500;font-size:11px;letter-spacing:.08em;opacity:.85;margin-top:4px;text-transform:uppercase;font-family:ui-monospace,Menlo,monospace}
+.ai p{color:#EAF4FB;font-size:15.5px}
+table{width:100%;border-collapse:collapse;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+th{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mist);font-weight:500;text-align:left;padding:12px 18px;background:var(--light)}
+td{font-size:15px;padding:12px 18px;border-top:1px solid var(--line);vertical-align:top}
+td:first-child{font-weight:700;color:var(--ink);width:36%}
+.new{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:var(--az);border:1px solid var(--az);border-radius:3px;padding:1px 5px;margin-left:6px;vertical-align:2px;font-weight:500}
+/* rollout */
+.phases{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ph{background:#fff;border:1px solid var(--line);border-radius:6px;padding:20px}
+.ph .k{display:flex;justify-content:space-between;align-items:baseline}
+.ph .p{font-weight:800;color:var(--az);font-family:"Inter Tight",Inter,system-ui,sans-serif}
+.ph .w{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--mist)}
+.ph h3{font-size:20px;margin:8px 0}
+.ph p{font-size:15px}
+.mo{margin-top:20px;border-left:3px solid var(--az);padding-left:16px;font-size:16px}.mo b{color:var(--ink)}
+/* outcomes */
+.out{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.classes{background:var(--ink2);border-radius:6px;padding:10px 22px}
+.cl{display:flex;gap:12px;padding:12px 0;border-top:1px solid #2C384C;color:#AFBACB;font-size:15px}
+.cl:first-child{border-top:0}
+.cl b{color:#fff;min-width:200px;font-family:"Inter Tight",Inter,system-ui,sans-serif}
+.cl b:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--cy);margin-right:10px;vertical-align:2px}
+.guard{display:flex;flex-direction:column;gap:18px}
+.guard div{border-top:2px solid var(--az);padding-top:12px;font-size:16px}.guard b{color:var(--ink)}
+.kit{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
+.kit div{background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px 18px;font-size:14.5px}
+.kit b{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
+/* cite */
+.cite{background:var(--ink);color:#C9D3E0}
+.cite .sec-h h2{color:#fff}
+.cite .sec-h p{color:var(--mist)}
+.citebox{background:#0F141D;border:1px solid #2A3548;border-radius:6px;padding:20px 22px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;line-height:1.7;color:#E6ECF3;overflow-wrap:anywhere}
+.citebox a{color:var(--cy)}
+.cite .grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:start}
+.facts{list-style:none}
+.facts li{padding:10px 0;border-top:1px solid #2A3548;font-size:15px}.facts li:first-child{border-top:0}
+.facts b{color:#fff;display:inline-block;min-width:110px}
+.copy{margin-top:14px;background:transparent;border:1px solid #3A4A63;color:#E6ECF3;padding:8px 14px;border-radius:6px;cursor:pointer;font:inherit;font-size:14px}
+.copy:hover{border-color:var(--cy)}
+/* contact + footer */
+.contact .box{background:#fff;border:1px solid var(--line);border-radius:6px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.contact h3{font-size:22px}
+footer{padding:36px 0 48px;font-size:13.5px;color:var(--mist)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a{color:var(--steel)}
+/* responsive */
+@media (max-width:900px){
+  .two,.out,.cite .grid{grid-template-columns:1fr}
+  .phases,.kit{grid-template-columns:1fr 1fr}
+  .L{grid-template-columns:36px 1fr;row-gap:2px}
+  .L .ds{grid-column:2}
+  .nav nav{display:none}
+  .sec-h p{margin-left:0;width:100%}
+}
+@media (max-width:560px){
+  .phases,.kit,.cfg{grid-template-columns:1fr}
+  .hero{padding:60px 0 68px}
+  section.s{padding:60px 0}
+  .ai{flex-direction:column;gap:8px}
+  td:first-child{width:auto}
+  th:last-child,td{display:block}
+  td{border-top:0;padding:4px 18px}
+  td:first-child{padding-top:14px;border-top:1px solid var(--line)}
+  tr:first-child th:last-child{display:none}
+  .cl{flex-direction:column;gap:2px}
+  .canvas{flex-direction:column;gap:8px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brandmark" href="/" aria-label="Keirin Framework home">
+      <svg width="34" height="34" viewBox="0 0 54 54" fill="none" aria-hidden="true"><path d="M45 15.5A22 22 0 1 0 47.5 34" stroke="#0E7FC0" stroke-width="5" stroke-linecap="round"/><path d="M17 27h11l6-7h9" stroke="#2BB3D8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="17" cy="27" r="3.4" fill="#2BB3D8"/><circle cx="43" cy="20" r="3.4" fill="#fff"/><circle cx="31" cy="34" r="2.6" fill="#0E7FC0"/><path d="M28 27l3 7" stroke="#0E7FC0" stroke-width="2" stroke-linecap="round"/></svg>
+      <span class="word">KEIRIN</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#what">What it is</a><a href="#layers">Layers</a><a href="#roles">Roles</a><a href="#rollout">Rollout</a><a href="#cite">Cite</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <svg class="track" viewBox="0 0 720 720" fill="none" aria-hidden="true">
+    <circle cx="360" cy="360" r="330" stroke="#0E7FC0" stroke-opacity=".55" stroke-width="2"/>
+    <circle cx="360" cy="360" r="285" stroke="#2BB3D8" stroke-opacity=".22" stroke-width="1.5"/>
+    <circle cx="360" cy="360" r="240" stroke="#8A94A6" stroke-opacity=".16" stroke-width="1.2"/>
+    <circle cx="360" cy="360" r="195" stroke="#8A94A6" stroke-opacity=".10" stroke-width="1"/>
+  </svg>
+  <div class="wrap" style="position:relative">
+    <div class="eyebrow mono">Public Review Edition 0.9</div>
+    <h1>Keirin Framework</h1>
+    <div class="sub">The AI-Augmented Agile Delivery Framework</div>
+    <div class="rule"></div>
+    <div class="tag">The machine sets the pace.<br><span>Your team wins the race.</span></div>
+    <p class="lead">Keirin <b>embeds governed AI into the delivery cadence</b>, accelerating performance while humans remain in control. It turns scattered, unmeasured AI use into a governed, context-aware and measurable delivery capability.</p>
+    <div class="cta">
+      <a class="btn pri" href="https://zenodo.org/records/21758038/files/keirin-framework-0.9-public-review.pdf?download=1" rel="noopener">Download the framework (PDF)</a>
+      <a class="btn sec" href="https://zenodo.org/records/21758038" rel="noopener">View on Zenodo</a>
+    </div>
+    <div class="badges">
+      <a class="doi" href="https://doi.org/10.5281/zenodo.21758038" rel="noopener" aria-label="DOI 10.5281/zenodo.21758038"><span>DOI</span><span>10.5281/zenodo.21758038</span></a>
+      <span class="edition">Amr Abulnaga · August 2026 · CC BY 4.0</span>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="what">
+  <div class="wrap">
+    <div class="sec-h"><span class="n mono">01</span><h2>What Keirin is</h2><p>Governed AI inside the cadence your teams already run</p></div>
+    <div class="two">
+      <div class="prose">
+        <p>Keirin is <b>an amplification layer, not a replacement.</b> It doesn’t ask teams to abandon the agile framework they already run. It adds governed AI to every ceremony, with a human gate on each, so teams gain speed without giving up accountability.</p>
+        <p>AI drafts, analyzes and summarizes. <b>People decide.</b> Every AI use case earns its place on a one-page canvas before it enters a ceremony, and every gain is reported alongside its guardrails.</p>
+        <div class="mono" style="margin-top:22px;color:var(--mist)">It plugs into</div>
+        <div class="chips"><span class="chip">Scrum</span><span class="chip">SAFe</span><span class="chip">LeSS</span><span class="chip">Scrum@Scale</span></div>
+      </div>
+      <div class="derny">In keirin track cycling, a pacing bike, the <b>derny</b>, brings riders up to a speed they could not reach alone, then pulls off the track. The riders sprint for the line themselves. <b>AI is the derny.</b> It never finishes the race.</div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="layers">
+  <div class="wrap">
+    <div class="sec-h"><span class="n mono">02</span><h2>Six layers, two configurations</h2><p>Core stays teachable in two days</p></div>
+    <div class="stack">
+      <div class="L"><span class="num">5</span><span class="nm">Measurement &amp; Learning</span><span class="ds">Five result classes, reported with stability guardrails</span></div>
+      <div class="L"><span class="num">4</span><span class="nm">Governance &amp; Assurance</span><span class="ds">Green / Amber / Red data, review gates, incidents, change control</span></div>
+      <div class="L"><span class="num">3</span><span class="nm">Cadence Integration</span><span class="ds">AI woven into every ceremony, with a human gate on each</span></div>
+      <div class="L sig"><span class="num">2</span><span class="nm">Use-Case &amp; Work Design</span><span class="ds">Day-0 Canvas, AI Use-Case Register, risk tiering</span></div>
+      <div class="L"><span class="num">1</span><span class="nm">Readiness &amp; Context</span><span class="ds">Agile hygiene, Team Context Repository, tooling, AI literacy</span></div>
+      <div class="L ent"><span class="num">0</span><span class="nm">Outcomes &amp; Value</span><span class="ds">Objectives, AI opportunity portfolio, capacity reinvestment</span></div>
+    </div>
+    <div class="cfg">
+      <div class="core"><b>Core</b> · Layers 1–5 at team scope. Every pilot starts here.</div>
+      <div class="ent"><b>Enterprise</b> · Adds Layer 0: outcomes, portfolio and reinvestment.</div>
+    </div>
+    <div class="canvas">
+      <span class="mono">Signature artifact</span>
+      <p><b>Day-0 Value &amp; Assurance Canvas.</b> One page per AI use case: outcome, work, suitability, context, data, accountability, validation, evidence, impact, fallback, technology. Every use case earns its place before it enters a ceremony.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="roles">
+  <div class="wrap">
+    <div class="sec-h"><span class="n mono">03</span><h2>Who does what</h2><p>AI drafts. People decide.</p></div>
+    <div class="ai">
+      <div class="t">AI assistant<small>Paces, never races</small></div>
+      <p>Drafts, analyzes and summarizes across every ceremony, grounded in the Team Context Repository. A context-aware assistant, not a colleague. Unattended runs fail closed when context is missing.</p>
+    </div>
+    <table>
+      <tr><th scope="col">Role</th><th scope="col">Keeps human, never delegated</th></tr>
+      <tr><td>Product Owner</td><td>Prioritization, acceptance, stakeholder relationships</td></tr>
+      <tr><td>Scrum Master / Delivery Lead</td><td>Facilitation, conflict, coaching; curates the prompt library</td></tr>
+      <tr><td>Developers / Makers</td><td>Design decisions, review sign-off, understanding what ships</td></tr>
+      <tr><td>QA / Quality</td><td>The call on “good enough to release”</td></tr>
+      <tr><td>Business Analyst / Designer</td><td>Elicitation conversations, design judgment</td></tr>
+      <tr><td>Engineering / Functional Lead</td><td>Architecture, standards, people decisions</td></tr>
+      <tr><td>Sponsor / Leadership</td><td>Tooling budget, data-policy sign-off; never sets AI usage quotas</td></tr>
+      <tr><td>AI-Agile Champion<span class="new">NEW</span></td><td>Part-time local onboarding and library care, 2–4 hrs a week</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="s" id="rollout">
+  <div class="wrap">
+    <div class="sec-h"><span class="n mono">04</span><h2>Rollout, middle-out</h2><p>Top-down enablement, bottom-up proof</p></div>
+    <div class="phases">
+      <div class="ph"><div class="k"><span class="p">Phase 0</span><span class="w">WK 1–2</span></div><h3>Diagnose</h3><p>Baseline, opportunity heat map, draft Canvases, signed reinvestment agreement</p></div>
+      <div class="ph"><div class="k"><span class="p">Phase 1</span><span class="w">WK 3–8</span></div><h3>Pilot</h3><p>One volunteer team, about three sprints, before/after report</p></div>
+      <div class="ph"><div class="k"><span class="p">Phase 2</span><span class="w">WK 9–20</span></div><h3>Scale</h3><p>Waves of 2–3 teams, each funded by the last wave’s numbers</p></div>
+      <div class="ph"><div class="k"><span class="p">Phase 3</span><span class="w">WK 21–26</span></div><h3>Institutionalize</h3><p>Champion network owns the practice; governance moves to risk and quality</p></div>
+    </div>
+    <p class="mo"><b>Executives make four decisions up front:</b> sponsorship, budget and tooling, governance sign-off, and capacity reinvestment. Not a rollout mandate. Scaling waits for the pilot’s numbers.</p>
+
+    <div class="sec-h" style="margin-top:64px"><span class="n mono">05</span><h2>Outcomes</h2><p>Five result classes, reported together</p></div>
+    <div class="out">
+      <div class="classes">
+        <div class="cl"><b>Business value</b>benefit vs hypothesis</div>
+        <div class="cl"><b>Customer outcomes</b>reached customers</div>
+        <div class="cl"><b>Flow &amp; delivery</b>cycle time, throughput</div>
+        <div class="cl"><b>AI assurance</b>factuality, incidents</div>
+        <div class="cl"><b>Human sustainability</b>load, learning, trust</div>
+      </div>
+      <div class="guard">
+        <div><b>Guardrails travel with every gain.</b> A throughput gain with rising instability is reported as a problem, not a success.</div>
+        <div><b>Reclaimed capacity is reinvested,</b> never silently harvested. The sponsor signs it at Phase 0.</div>
+      </div>
+    </div>
+    <div class="kit">
+      <div><b>Day-0 Canvas</b>One page per AI use case</div>
+      <div><b>Prompt &amp; Pattern Library</b>48 prompts across 12 series</div>
+      <div><b>Interaction patterns</b>9 named patterns</div>
+      <div><b>Foundations Workshop</b>2-day delivery kit</div>
+    </div>
+  </div>
+</section>
+
+<section class="s cite" id="cite">
+  <div class="wrap">
+    <div class="sec-h"><span class="n mono" style="color:var(--cy)">06</span><h2>Read &amp; cite</h2><p>Open for public review</p></div>
+    <div class="grid">
+      <div>
+        <div class="citebox" id="citation">Abulnaga, A. (2026). <i>Keirin Framework: The AI-Augmented Agile Delivery Framework</i> (Version 0.9 — Public Review Edition). Zenodo. <a href="https://doi.org/10.5281/zenodo.21758038" rel="noopener">https://doi.org/10.5281/zenodo.21758038</a></div>
+        <button class="copy" type="button" onclick="navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('citation').innerText).then(()=>{this.textContent='Copied'})">Copy citation</button>
+      </div>
+      <ul class="facts">
+        <li><b>DOI</b><a href="https://doi.org/10.5281/zenodo.21758038" style="color:var(--cy)" rel="noopener">10.5281/zenodo.21758038</a></li>
+        <li><b>Record</b><a href="https://zenodo.org/records/21758038" style="color:var(--cy)" rel="noopener">zenodo.org/records/21758038</a></li>
+        <li><b>Edition</b>0.9 Public Review · Aug 2026</li>
+        <li><b>Licence</b><a href="https://creativecommons.org/licenses/by/4.0/" style="color:var(--cy)" rel="noopener license">CC BY 4.0</a></li>
+        <li><b>PDF</b><a href="https://zenodo.org/records/21758038/files/keirin-framework-0.9-public-review.pdf?download=1" style="color:var(--cy)" rel="noopener">Download via Zenodo</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="s contact" id="contact">
+  <div class="wrap">
+    <div class="box">
+      <div>
+        <h3>Review it. Pilot it. Tell me what breaks.</h3>
+        <p style="margin-top:6px">Feedback on the Public Review Edition shapes Keirin 1.0.</p>
+      </div>
+      <a class="btn pri" href="mailto:feedback@keirinframework.com?subject=Keirin%200.9%20feedback">feedback@keirinframework.com</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Amr Abulnaga. Keirin™ is a trademark of Amr Abulnaga. Registration pending where applicable.</div>
+    <div>#KeirinFramework · <a href="https://doi.org/10.5281/zenodo.21758038" rel="noopener">DOI</a> · No cookies, no trackers.</div>
+  </div>
+</footer>
+</body>
+</html>
